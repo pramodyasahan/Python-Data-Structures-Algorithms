@@ -54,6 +54,8 @@ class LinkedList:
             prev_node = self.head
             self.head = new_node
             new_node.next = prev_node
+        self.length += 1
+        return True
 
 
 my_linked_list = LinkedList(4)
