@@ -127,8 +127,4 @@ class LinkedList:
 
 
 my_linked_list = LinkedList(0)
-my_linked_list.append(2)
-my_linked_list.insert(1, 1)
-my_linked_list.reverse()
-
 my_linked_list.print_list()
