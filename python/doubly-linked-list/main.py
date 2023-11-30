@@ -18,6 +18,18 @@ class DoublyLinkedList:
             print(temp.value)
             temp = temp.next
 
+    def append(self, value):
+        new_node = Node(value)
+        if self.length == 0:
+            self.head = new_node
+            self.tail = new_node
+        else:
+            self.tail.next = new_node
+            new_node.prev = self.tail
+            self.tail = new_node
+        self.length += 1
+        return True
+
 
 my_doubly_linked_list = DoublyLinkedList(7)
 my_doubly_linked_list.print_list()
