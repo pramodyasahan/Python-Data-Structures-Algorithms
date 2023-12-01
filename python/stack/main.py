@@ -9,3 +9,9 @@ class Stack:
         new_node = Node(value)
         self.top = new_node
         self.length = 1
+
+    def print_list(self):
+        temp = self.top
+        while temp is not None:
+            print(temp.value)
+            temp = temp.next
