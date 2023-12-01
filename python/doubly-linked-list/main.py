@@ -126,5 +126,5 @@ class DoublyLinkedList:
         return temp
 
 
-my_doubly_linked_list = DoublyLinkedList(0)
+my_doubly_linked_list = DoublyLinkedList(1)
 my_doubly_linked_list.print_list()
