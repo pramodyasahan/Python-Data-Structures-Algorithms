@@ -126,8 +126,5 @@ class DoublyLinkedList:
         return temp
 
 
-my_doubly_linked_list = DoublyLinkedList(7)
-my_doubly_linked_list.append(8)
-my_doubly_linked_list.insert(2, 9)
-my_doubly_linked_list.remove(0)
+my_doubly_linked_list = DoublyLinkedList(0)
 my_doubly_linked_list.print_list()
