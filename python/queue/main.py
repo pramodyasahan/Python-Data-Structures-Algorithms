@@ -10,3 +10,9 @@ class Queue:
         self.first = new_node
         self.last = new_node
         self.length = 1
+
+    def print_list(self):
+        temp = self.first
+        while temp is not None:
+            print(temp.value)
+            temp = temp.next
