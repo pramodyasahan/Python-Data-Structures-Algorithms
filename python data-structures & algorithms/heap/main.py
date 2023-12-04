@@ -7,3 +7,6 @@ class MaxHeap:
 
     def _right_child(self, index):
         return 2 * index + 2
+
+    def _parent(self, index):
+        return (index - 1) // 2
