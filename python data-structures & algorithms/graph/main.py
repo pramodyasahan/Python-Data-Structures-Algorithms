@@ -7,3 +7,7 @@ class Graph:
             self.adj_list[vertex] = []
             return True
         return False
+
+    def print_graph(self):
+        for vertex in self.adj_list:
+            print(vertex, ":", self.adj_list[vertex])
