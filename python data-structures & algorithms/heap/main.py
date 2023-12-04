@@ -10,3 +10,6 @@ class MaxHeap:
 
     def _parent(self, index):
         return (index - 1) // 2
+
+    def _swap(self, index1, index2):
+        self.heap[index1], self.heap[index2] = self.heap[index2], self.heap[index1]
